@@ -1,0 +1,19 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "pages": {
+      "home": "Welcome to our website!",
+      "about": "About Us",
+      "contact": "Get in Touch"
+    },
+
+    "home": {
+        "banner": {
+            "title": "Welcome to the new era of Blockchain",
+            "subtitle": "20 milliseconds to transform everything you know about blockchain. We don't follow standards, we create them."
+        }
+    }
+  }

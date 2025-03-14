@@ -1,0 +1,15 @@
+.footerContainer {
+  background-position: left top;
+  background-size: cover;
+}
+
+.footerContent {
+  display: flex;
+  min-height: 600px;
+  align-items: start;
+  padding-top: 220px;
+}
+
+.footerContentRow {
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+{
+    "app": "Norsh",
+    "cdn": "https://c2652z5519.r-cdn.com",
+    
+    "img": {
+        "logo": {
+            "color": "/assets/imgs/logo/logo_color.svg",
+            "white": "/assets/imgs/logo/logo_white.svg"
+        },
+        "footer": {
+            "bannerBg": "/assets/imgs/footer/footer_bg.png"
+        },
+        "home": {
+            "bannerBg": "/assets/imgs/home/banner_bg.png",
+            "bannerL1": "/assets/imgs/home/banner_l1.png",
+            "div": "/assets/imgs/home/div.png",
+            "laptop": "/assets/imgs/home/laptop.png"
+        }
+    }
+}
