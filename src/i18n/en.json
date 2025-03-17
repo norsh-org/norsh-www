@@ -2,12 +2,26 @@
     "navbar": {
       "home": "Home",
       "about": "About",
-      "contact": "Contact"
+      "crypto": "Crypto",
+      "solutions": "Solutions",
+      "programs": "Programs",
+      "documentation": "Documentation"
     },
-    "pages": {
-      "home": "Welcome to our website!",
-      "about": "About Us",
-      "contact": "Get in Touch"
+
+    "navbarItens": {
+      "solutions": {
+        "hazmat": "Hazmat",
+        "pharma": "Pharma",
+        "suplychain": "Suply Chain",
+        "recycle": "Recycle",
+        "ip": "Intellectual property",
+        "reforestation": "Reforestation"
+      },
+      "programs": {
+        "developers": "Developers",
+        "cases": "Bring your Company",
+        "govnet": "GovNet"
+      }
     },
 
     "home": {

@@ -13,6 +13,8 @@
         "home": {
             "bannerBg": "/assets/imgs/home/banner_bg.png",
             "bannerL1": "/assets/imgs/home/banner_l1.png",
+            "block": "/assets/imgs/home/block.png",
+            "nsh": "/assets/imgs/home/nsh.png",
             "div": "/assets/imgs/home/div.png",
             "laptop": "/assets/imgs/home/laptop.png"
         }

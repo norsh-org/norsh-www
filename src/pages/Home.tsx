@@ -1,6 +1,4 @@
 import Navbar from "../components/Navbar";
-import block from "../assets/home/block.png";
-import nsh from "../assets/home/nsh.png";
 import styles from "./Home.module.css";
 import { t } from "i18next";
 import { Link } from "react-router-dom";
@@ -28,7 +26,7 @@ const Home = () => {
             </div>
 
             <div className={`col-12 col-md-4 text-center`}>
-              <img src={block} className={styles.imageBanner} />
+              <img src={`${t("cdn")}${t("img.home.block")}`} className={styles.imageBanner} />
             </div>
           </div>
         </div>
@@ -67,7 +65,7 @@ const Home = () => {
             </p>
           </div>
           <div className="col-12 col-lg-5 d-none d-lg-block text-center">
-            <img src={nsh} className="w-100 p-5" />
+            <img src={`${t("cdn")}${t("img.home.nsh")}`} className="w-100 p-5" />
           </div>
         </div>
       </div>

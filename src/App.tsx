@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "r
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import i18n from "./i18n";
-import { getLangFromPath } from "./utils/getLang";
+import i18n, { getLangFromPath } from "./i18n";
 import { GlobalProvider } from "./context/GlobalContext";
 import Hazmat from "./pages/Hazmat";
 import "./App.css";
 import Footer from "./components/Footer";
+import ScrollToTop from "./utils/ScrollToTop";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
@@ -23,18 +23,20 @@ const Wrapper = ({ children }: { children: React.ReactNode }) => {
 
 const App = () => {
   return (
-    <GlobalProvider> {/* Adicionamos o Provider aqui */}
+    <GlobalProvider> 
       <Router>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Navigate to="/en/home" replace />} />
           <Route path="/en" element={<Navigate to="/en/home" replace />} />
           <Route path="/:lang/home" element={<Wrapper><Home /></Wrapper>} />
           <Route path="/:lang/about" element={<Wrapper><About /></Wrapper>} />
-          <Route path="/:lang/hazmat" element={<Wrapper><Hazmat /></Wrapper>} />
+          <Route path="/:lang/solutions" element={<Wrapper><Hazmat /></Wrapper>} />
           <Route path="/:lang/contact" element={<Wrapper><Contact /></Wrapper>} />
         </Routes>
         <Footer/>
       </Router>
+      
     </GlobalProvider>
   );
 };
