@@ -5,13 +5,6 @@ import "./Hazmat.css";
 import FaqAccordion from "../components/FaqAccordion";
 
 const Hazmat = () => {
-	interface FaqItem {
-		question: string;
-		answer: string;
-	}
-
-	const faqItems: FaqItem[] = Array.isArray(t("hazmat.faq.items", { returnObjects: true })) ? (t("hazmat.faq.items", { returnObjects: true }) as FaqItem[]) : [];
-
 	return (
 		<>
 			<div style={{ backgroundColor: "black" }}>
