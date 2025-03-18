@@ -1,33 +1,62 @@
 {
-    "navbar": {
-      "home": "Home",
-      "about": "About",
-      "crypto": "Crypto",
-      "solutions": "Solutions",
-      "programs": "Programs",
-      "documentation": "Documentation"
-    },
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"crypto": "Crypto",
+		"solutions": "Solutions",
+		"programs": "Programs",
+		"documentation": "Documentation"
+	},
 
-    "navbarItens": {
-      "solutions": {
-        "hazmat": "Hazmat",
-        "pharma": "Pharma",
-        "suplychain": "Suply Chain",
-        "recycle": "Recycle",
-        "ip": "Intellectual property",
-        "reforestation": "Reforestation"
-      },
-      "programs": {
-        "developers": "Developers",
-        "cases": "Bring your Company",
-        "govnet": "GovNet"
-      }
-    },
+	"navbarItems": {
+		"solutions": {
+			"hazmat": "Hazmat",
+			"pharma": "Pharma",
+			"suplychain": "Suply Chain",
+			"recycle": "Recycle",
+			"ip": "Intellectual property",
+			"sustainability": "Sustainability"
+		},
+		"programs": {
+			"developers": "Developers",
+			"byc": "Bring your Company",
+			"govnet": "GovNet"
+		}
+	},
 
-    "home": {
-        "banner": {
-            "title": "Welcome to the new era of Blockchain",
-            "subtitle": "20 milliseconds to transform everything you know about blockchain. We don't follow standards, we create them."
-        }
-    }
-  }
+	"home": {
+		"banner": {
+			"title": "Welcome to the new era of Blockchain",
+			"subtitle": "20 milliseconds to transform everything you know about blockchain.<br>We don't follow standards, we create them."
+		},
+
+		"whatIs": {
+			"title": "What is <span style='color: darkcyan'>Norsh?</span>",
+			"text": "Norsh is not just a blockchain. It is a new standard that removes the limits of Web 3.0. We have created an ecosystem that eliminates existing barriers and makes operations more efficient, transparent, and direct. With imperceptible latency, costs reduced to the essential, and no obstacles for those who develop, use, or innovate, in any environment: public, corporate, industrial, or governmental.<br><br>We believe that true progress comes from improving what already exists. “Reinvent the Wheel” does not mean changing for the sake of change, but evolving with purpose. If something works, we keep it. If it gets in the way, we replace it. We do not follow trends or dogmas, only what truly adds value.<br><br>The future of blockchains will no longer be defined by restrictions but by the opportunities we can create. That is exactly why Norsh exists, to build a new path that is secure, intelligent, structured, and free of barriers for the future."
+		},
+
+		"cta": {
+			"title": "Blockchain for you, businesses, governments, and things",
+			"text": "From personal use to public and private sectors, from small operations to large corporations, Norsh adapts to what you need. Secure, scalable, and ready to connect people, institutions, and devices."
+		},
+
+		"techInfo": {
+			"title": "Designed for Integration",
+			"text": "Norsh is a blockchain ready for the real world, built on open standards and aligned with the best market practices. Our infrastructure enables seamless integration with existing systems, reducing complexity and development time.<br><br>With flexible APIs and an optimized architecture, you can connect applications, services, and devices without barriers. Your focus is your product. We've already solved the secure and scalable foundation.",
+			"link": "See our documentation"
+		}
+	},
+
+	"hazmat": {
+		"banner": {
+			"title": "Hazardous Materials Control",
+			"subtitle": "Norsh's blockchain solution for Hazmat ensures secure and transparent tracking of hazardous materials from manufacturing to disposal. Chemicals, radioactive waste, and weapons are all recorded immutably and auditably, ensuring reliability at every stage."
+		},
+
+    "whatIs": {
+			"title": "How It <span style='color: #daa90a'>Works?</span>",
+			"text": "Norsh Hazmat tracks and records the entire journey of hazardous materials, from creation to final disposal. Every movement is stored on the blockchain, ensuring a reliable and transparent history for industries, consumers, and authorities.",
+      "list": "<br><b class='d-block my-3'>Who Uses It?</b><ul><li><b>Industries</b> track raw materials and ensure dangerous products are properly handled.</li><li><b>Governments and regulatory agencies</b> monitor production, transport, and disposal to ensure compliance with laws.</li><li><b>Logistics companies and insurers</b> verify that shipments follow safety standards.</li><li><b>Hospitals and laboratories</b> manage biological and chemical waste with full transparency.</li></ul>"
+		}
+	}
+}

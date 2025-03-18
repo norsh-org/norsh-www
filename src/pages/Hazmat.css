@@ -1,0 +1,12 @@
+body.solutions-hazmat {
+    background-color: black;
+    color: white;
+}
+
+body.solutions-hazmat nav .btn-info {
+    background-color: #daa90a !important;
+}
+
+body.solutions-hazmat .footerContainer {
+    filter: saturate(2) hue-rotate(240deg);
+}

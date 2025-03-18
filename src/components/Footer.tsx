@@ -29,7 +29,7 @@ const Footer = () => {
 										{t("navbar.home")}
 									</Link>
 								</li>
-								<li className="d-inline">
+								{/* <li className="d-inline">
 									<Link to={`/${lang}/about`} className="text-white nav-link mb-3" preventScrollReset>
 										{t("navbar.about")}
 									</Link>
@@ -38,19 +38,19 @@ const Footer = () => {
 									<Link to={`/${lang}/contact`} className="text-white nav-link mb-3" preventScrollReset>
 										{t("navbar.contact")}
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 
 						<div className="col-6 col-lg-3 mb-5">
 							<h5 className="mb-3">Solutions</h5>
 							<ul className="list-group">
-								{/* <li className="d-inline">
-									<Link to={`/${lang}/hazmat`} className="text-white nav-link mb-3" preventScrollReset>
+								<li className="d-inline">
+									<Link to={`/${lang}/solutions/hazmat`} className="text-white nav-link mb-3" preventScrollReset>
 										Hazmat
 									</Link>
 								</li>
-								<li className="d-inline">
+								{/* <li className="d-inline">
 									<Link to={`/${lang}/about`} className="text-white nav-link mb-3" preventScrollReset>
 										{t("navbar.about")}
 									</Link>

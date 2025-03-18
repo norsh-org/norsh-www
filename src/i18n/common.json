@@ -17,6 +17,9 @@
             "nsh": "/assets/imgs/home/nsh.png",
             "div": "/assets/imgs/home/div.png",
             "laptop": "/assets/imgs/home/laptop.png"
+        },
+        "hazmat": {
+            "bannerBg": "/assets/imgs/hazmat/banner_bg.jpg"
         }
     }
 }

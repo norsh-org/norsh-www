@@ -8,6 +8,7 @@ import Hazmat from "./pages/Hazmat";
 import "./App.css";
 import Footer from "./components/Footer";
 import ScrollToTop from "./utils/ScrollToTop";
+import BodyClassSetter from "./utils/BodyClassSetter";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
@@ -25,13 +26,14 @@ const App = () => {
   return (
     <GlobalProvider> 
       <Router>
+      <BodyClassSetter/>
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<Navigate to="/en/home" replace />} />
           <Route path="/en" element={<Navigate to="/en/home" replace />} />
           <Route path="/:lang/home" element={<Wrapper><Home /></Wrapper>} />
           <Route path="/:lang/about" element={<Wrapper><About /></Wrapper>} />
-          <Route path="/:lang/solutions" element={<Wrapper><Hazmat /></Wrapper>} />
+          <Route path="/:lang/solutions/hazmat" element={<Wrapper><Hazmat /></Wrapper>} />
           <Route path="/:lang/contact" element={<Wrapper><Contact /></Wrapper>} />
         </Routes>
         <Footer/>

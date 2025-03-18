@@ -21,8 +21,7 @@ i18n.use(initReactI18next).init({
   },
   lng: "en", // Default language
   fallbackLng: "common",
-
-  interpolation: { escapeValue: false },
+  interpolation: { escapeValue: false }
 });
 
 export const getLangFromPath = (pathname: string): string => {
