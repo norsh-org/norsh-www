@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
 	const textTheme: string = isLightBackground ? "text-dark" : "text-light";
 
 	return (
-		<div className="position-absolute w-100">
+		<div className="position-absolute w-100" style={{zIndex: 1}}>
 			<div className="container-lg">
 				<nav className="navbar navbar-expand-lg">
 					<div className="container-fluid d-flex align-items-center-between">
@@ -124,9 +124,9 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
 
 						{/* Login Button */}
 						<div>
-							<Link to={`/${lang}/login`} className="btn btn-info rounded-pill text-white px-4 border-0" style={{ backgroundColor: "#329da4" }}>
+							{/* <Link to={`/${lang}/login`} className="btn btn-info rounded-pill text-white px-4 border-0" style={{ backgroundColor: "#329da4" }}>
 								Login
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 				</nav>
