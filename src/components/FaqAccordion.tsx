@@ -27,7 +27,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqPath }) => {
     if (faqItems.length === 0) return null;
 
     return (
-        <div className="faq-container">
+        <div className="faq-container" id="faq">
             <h2 className="faq-title">{t(faqPath.replace(".items", ".title"))}</h2>
             <div className="faq-accordion">
                 {faqItems.map((item, index) => (
