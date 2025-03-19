@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
   const textTheme: string = isLightBackground ? "text-dark" : "text-light";
 
   return (
-    <div className="position-absolute w-100">
+    <div className="position-absolute w-100" style={{zIndex: 9}}>
       <div className="container-lg">
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid d-flex align-items-center-between">

@@ -1,0 +1,36 @@
+body.solutions-hazmat {
+    background-color: black;
+    color: white;
+
+
+    nav .btn-info {
+        background-color: #daa90a !important;
+    }
+
+    .footerContainer {
+        filter: saturate(2) hue-rotate(240deg);
+    }
+
+    .faq-container {
+        color: white;
+    }
+
+    .faq-question { 
+        background: #111;
+    }
+
+    .faq-question:hover {
+        background: #222222;
+    }
+
+
+    .faq-answer {
+        background: #2a2a2a;
+    }
+
+    .faq-item.open .faq-question { 
+        font-weight: 500;
+        background: #222;
+    }
+
+}

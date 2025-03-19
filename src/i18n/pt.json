@@ -1,0 +1,143 @@
+{
+	"navbar": {
+		"home": "Início",
+		"about": "Sobre",
+		"crypto": "Cripto",
+		"solutions": "Soluções",
+		"programs": "Programas",
+		"documentation": "Documentação"
+	},
+
+	"navbarItems": {
+		"solutions": {
+			"hazmat": "Materiais Perigosos",
+			"pharma": "Fármacos",
+			"suplychain": "Cadeia de Suprimentos",
+			"recycle": "Reciclagem",
+			"ip": "Propriedade Intelectual",
+			"sustainability": "Sustentabilidade"
+		},
+		"programs": {
+			"developers": "Desenvolvedores",
+			"byc": "Traga sua Empresa",
+			"govnet": "GovNet"
+		}
+	},
+
+	"home": {
+		"banner": {
+			"title": "Bem-vindo à nova era do Blockchain",
+			"subtitle": "20 milissegundos para transformar tudo o que você conhece sobre blockchain.<br>Não seguimos padrões, nós os criamos."
+		},
+
+		"whatIs": {
+			"title": "O que é <span style='color: darkcyan'>Norsh?</span>",
+			"text": "Norsh não é apenas uma blockchain. É um novo padrão que remove os limites da Web 3.0. Criamos um ecossistema que elimina barreiras existentes e torna as operações mais eficientes, transparentes e diretas. Com latência imperceptível, custos reduzidos ao essencial e sem obstáculos para quem desenvolve, usa ou inova, em qualquer ambiente: público, corporativo, industrial ou governamental.<br><br>Acreditamos que o verdadeiro progresso vem de melhorar o que já existe. “Reinventar a roda” não significa mudar por mudar, mas evoluir com propósito. Se algo funciona, mantemos. Se atrapalha, substituímos. Não seguimos tendências ou dogmas, apenas o que realmente agrega valor.<br><br>O futuro das blockchains não será mais definido por restrições, e sim pelas oportunidades que podemos criar. É exatamente por isso que o Norsh existe: para construir um novo caminho seguro, inteligente, estruturado e livre de barreiras para o futuro."
+		},
+
+		"cta": {
+			"title": "Blockchain para você, negócios, governos e coisas",
+			"text": "Do uso pessoal ao setor público e privado, de pequenas operações a grandes corporações, o Norsh se adapta ao que você precisa. Seguro, escalável e pronto para conectar pessoas, instituições e dispositivos."
+		},
+
+		"techInfo": {
+			"title": "Projetado para Integração",
+			"text": "Norsh é uma blockchain pronta para o mundo real, construída sobre padrões abertos e alinhada com as melhores práticas de mercado. Nossa infraestrutura permite integração fluida com sistemas existentes, reduzindo complexidade e tempo de desenvolvimento.<br><br>Com APIs flexíveis e uma arquitetura otimizada, você pode conectar aplicativos, serviços e dispositivos sem barreiras. Seu foco é o seu produto. Nós já resolvemos a base segura e escalável.",
+			"link": "Veja nossa documentação"
+		}
+	},
+
+	"hazmat": {
+		"banner": {
+			"title": "Controle de Materiais Perigosos",
+			"subtitle": "A solução de blockchain da Norsh para Hazmat garante rastreamento seguro e transparente de materiais perigosos, desde a fabricação até o descarte. Produtos químicos, resíduos radioativos e armas são registrados de forma imutável e auditável, garantindo confiabilidade em cada etapa."
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #daa90a'>Funciona?</span>",
+			"text": "O Norsh Hazmat rastreia e registra toda a jornada de materiais perigosos, desde a criação até o descarte final. Cada movimentação é armazenada na blockchain, garantindo um histórico confiável e transparente para indústrias, consumidores e autoridades.",
+			"list": "<br><b class='d-block my-3'>Quem Usa?</b><ul><li><b>Indústrias</b> rastreiam matérias-primas e garantem o manuseio adequado de produtos perigosos.</li><li><b>Governos e agências reguladoras</b> monitoram produção, transporte e descarte para garantir o cumprimento das leis.</li><li><b>Empresas de logística e seguradoras</b> verificam se os envios seguem padrões de segurança.</li><li><b>Hospitais e laboratórios</b> gerenciam resíduos biológicos e químicos com total transparência.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "Quais tipos de materiais podem ser rastreados com o Norsh Hazmat?",
+					"answer": "O Norsh Hazmat pode registrar qualquer tipo de material perigoso, incluindo:<ul><li><b>Resíduos médicos e biológicos</b> (seringas, amostras, materiais contaminados)</li><li><b>Substâncias químicas e tóxicas</b> (solventes, ácidos, materiais inflamáveis)</li><li><b>Materiais radioativos</b> (placas de raio-X, resíduos nucleares, fontes de radiação)</li><li><b>Munições e armas</b> (rastreamento de transporte e destinos finais)</li><li><b>Resíduos industriais e perigosos</b> (metais pesados, efluentes, subprodutos tóxicos)</li></ul>O sistema pode ser adaptado para outros tipos de rastreamento conforme necessário."
+				},
+				{
+					"question": "Como o sistema garante a segurança dos dados?",
+					"answer": "O Hazmat utiliza tecnologia blockchain para registrar cada evento de movimentação, garantindo:<ul><li><b>Imutabilidade:</b> Uma vez registrado, o dado não pode ser alterado ou excluído.</li><li><b>Transparência:</b> Reguladores e empresas podem acessar informações em tempo real.</li><li><b>Segurança criptográfica:</b> Todos os registros são protegidos contra manipulação e fraudes.</li></ul>Os acessos podem ser controlados, garantindo que apenas usuários autorizados vejam dados específicos."
+				},
+				{
+					"question": "Quem pode usar o Hazmat?",
+					"answer": "O sistema é flexível e pode ser usado por:<ul><li><b>Empresas industriais e químicas</b> que lidam com produtos perigosos</li><li><b>Hospitais e laboratórios</b> para gerenciamento de resíduos biológicos</li><li><b>Empresas de transporte e logística</b> que movimentam cargas perigosas</li><li><b>Órgãos governamentais e reguladores</b> para fiscalização e auditoria</li><li><b>Empresas de descarte e reciclagem</b> que rastreiam resíduos tóxicos</li></ul>Se a sua empresa lida com materiais sensíveis e precisa de uma solução de rastreamento segura, o Hazmat é a escolha certa."
+				},
+				{
+					"question": "Existe um limite para o número de registros?",
+					"answer": "Não. O Norsh Hazmat foi projetado para ser <b>infinitamente escalável</b>, permitindo que empresas de todos os tamanhos registrem e rastreiem materiais sem restrições de volume.<br><br>A blockchain da Norsh pode processar milhares de transações por segundo, garantindo rastreamento em tempo real mesmo para grandes indústrias."
+				},
+				{
+					"question": "Como posso integrar o Hazmat ao meu sistema?",
+					"answer": "A integração é feita via <b>API REST</b>, permitindo conexão com ERPs, sistemas de logística, plataformas de gerenciamento de resíduos e até dispositivos IoT.<br><br>O processo de integração inclui:<ol><li><b>Registro da empresa no Hazmat</b></li><li><b>Geração de credenciais de API</b></li><li><b>Envio automático de eventos de rastreamento</b></li></ol>As empresas podem começar com um painel web simples e expandir a integração conforme necessário."
+				},
+				{
+					"question": "O Norsh Hazmat está em conformidade com regulamentações ambientais e de segurança?",
+					"answer": "Sim. O Hazmat ajuda as empresas a atender normas locais e internacionais de rastreamento, descarte e segurança ambiental, incluindo:<ul><li><b>Regulamentações de transporte de materiais perigosos</b></li><li><b>Regras ambientais para descarte de resíduos tóxicos</b></li><li><b>Políticas de conformidade para substâncias controladas</b></li></ul>O sistema simplifica auditorias e relatórios para os órgãos reguladores."
+				},
+				{
+					"question": "Como posso começar a usar o Norsh Hazmat?",
+					"answer": "Você pode solicitar uma demonstração ou criar uma conta para testar o sistema. Para empresas que precisam de integração avançada, oferecemos suporte técnico para configuração e automação via API.<br><br><b>Entre em contato e descubra como o Norsh Hazmat pode melhorar a gestão de materiais perigosos em sua operação.</b>"
+				}
+			]
+		}
+	},
+
+	"pharma": {
+		"banner": {
+			"title": "Do laboratório ao paciente, sem desvios, sem incertezas",
+			"subtitle": "A solução de blockchain da Norsh para o setor farmacêutico garante rastreamento seguro e transparente dos medicamentos, desde a produção até a dispensação. Cada etapa é registrada de forma imutável, assegurando autenticidade, conformidade e confiança em toda a cadeia."
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #008b8b'>Funciona?</span>",
+			"text": "A blockchain da Norsh registra toda a jornada dos fármacos, desde a fabricação até a entrega final. Cada movimentação – seja na produção, distribuição ou dispensação – é armazenada de forma imutável, garantindo um histórico confiável e transparente para fabricantes, distribuidores, farmácias e órgãos reguladores.",
+			"list": "<br><b class='d-block my-3'>Quem Usa?</b><ul><li><b>Fabricantes</b> asseguram a autenticidade e qualidade dos medicamentos.</li><li><b>Distribuidores</b> acompanham o transporte e armazenamento dos lotes.</li><li><b>Farmácias e hospitais</b> validam a origem e integridade dos produtos antes da dispensação.</li><li><b>Órgãos reguladores</b> monitoram a conformidade com as normas de saúde e segurança.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "Quais tipos de medicamentos podem ser rastreados com a solução da Norsh?",
+					"answer": "A solução blockchain da Norsh pode registrar e rastrear diversos tipos de medicamentos, incluindo:<ul><li><b>Medicamentos controlados</b> – como antibióticos e analgésicos</li><li><b>Vacinas e imunobiológicos</b></li><li><b>Produtos biotecnológicos</b> e terapias avançadas</li><li><b>Suplementos e nutracêuticos</b></li><li><b>Lotes experimentais</b> em fases de testes clínicos</li></ul>"
+				},
+				{
+					"question": "Como o sistema garante a segurança e a integridade dos dados?",
+					"answer": "A solução utiliza tecnologia blockchain para registrar cada etapa da cadeia farmacêutica, garantindo:<ul><li><b>Imutabilidade:</b> os registros não podem ser alterados ou apagados.</li><li><b>Transparência:</b> todas as etapas ficam acessíveis em tempo real para as partes autorizadas.</li><li><b>Segurança criptográfica:</b> os dados são protegidos contra fraudes e manipulações.</li></ul>"
+				},
+				{
+					"question": "Quem pode usar a solução de rastreamento farmacêutico?",
+					"answer": "A solução é flexível e pode ser utilizada por:<ul><li><b>Fabricantes</b> para garantir a qualidade e autenticidade dos medicamentos.</li><li><b>Distribuidores</b> que acompanham a logística dos lotes.</li><li><b>Farmácias e hospitais</b> que validam a origem dos produtos antes da dispensação.</li><li><b>Órgãos reguladores</b> que fiscalizam o cumprimento das normas de saúde.</li></ul>"
+				},
+				{
+					"question": "Existe um limite para o número de registros?",
+					"answer": "Não. A solução blockchain da Norsh foi projetada para ser <b>infinitamente escalável</b>, permitindo que empresas de todos os tamanhos registrem e rastreiem medicamentos sem restrições de volume. Nossa infraestrutura suporta milhares de transações por segundo, garantindo rastreamento em tempo real mesmo para grandes volumes de produção."
+				},
+				{
+					"question": "Como posso integrar a solução ao meu sistema?",
+					"answer": "A integração é feita via <b>API REST</b>, permitindo conexão com ERPs, sistemas de logística, gerenciamento de farmácias e outros. O processo de integração inclui:<ol><li><b>Registro da empresa na plataforma</b></li><li><b>Geração de credenciais de API</b></li><li><b>Envio automático de dados de rastreamento</b></li></ol>Empresas podem iniciar com um painel web simples e expandir a integração conforme necessário."
+				},
+				{
+					"question": "A solução atende às regulamentações do setor farmacêutico?",
+					"answer": "Sim. A solução da Norsh auxilia empresas a cumprir normas locais e internacionais, incluindo:<ul><li><b>Regulamentações de produção e distribuição de medicamentos</b></li><li><b>Normas de qualidade e segurança</b></li><li><b>Políticas de controle para medicamentos controlados</b></li></ul>O sistema facilita auditorias e assegura a conformidade com as exigências dos órgãos de saúde."
+				},
+				{
+					"question": "Como posso começar a usar a solução de rastreamento farmacêutico da Norsh?",
+					"answer": "Você pode solicitar uma demonstração ou criar uma conta para testar o sistema. Para empresas que necessitam de integração avançada, oferecemos suporte técnico completo para configuração e automação via API.<br><br><b>Entre em contato e descubra como a Norsh pode transformar a rastreabilidade e a segurança na cadeia farmacêutica.</b>"
+				}
+			]
+		}
+	}
+}

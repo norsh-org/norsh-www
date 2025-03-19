@@ -20,6 +20,9 @@
         },
         "hazmat": {
             "bannerBg": "/assets/imgs/hazmat/banner_bg.jpg"
+        },
+        "pharma": {
+            "bannerBg": "/assets/imgs/pharma/banner_lg.jpg"
         }
     }
 }

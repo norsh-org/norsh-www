@@ -9,6 +9,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import ScrollToTop from "./utils/ScrollToTop";
 import BodyClassSetter from "./utils/BodyClassSetter";
+import Pharma from "./pages/Pharma";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/:lang/home" element={<Wrapper><Home /></Wrapper>} />
           <Route path="/:lang/about" element={<Wrapper><About /></Wrapper>} />
           <Route path="/:lang/solutions/hazmat" element={<Wrapper><Hazmat /></Wrapper>} />
+          <Route path="/:lang/solutions/pharma" element={<Wrapper><Pharma /></Wrapper>} />
           <Route path="/:lang/contact" element={<Wrapper><Contact /></Wrapper>} />
         </Routes>
         <Footer/>

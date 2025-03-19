@@ -92,5 +92,52 @@
 				}
 			]
 		}
+	},
+
+	"pharma": {
+		"banner": {
+			"title": "Do laboratório ao paciente, sem desvios, sem incertezas",
+			"subtitle": "Norsh's blockchain solution for Hazmat ensures secure and transparent tracking of hazardous materials from manufacturing to disposal. Chemicals, radioactive waste, and weapons are all recorded immutably and auditably, ensuring reliability at every stage."
+		},
+
+		"whatIs": {
+			"title": "How It <span style='color: #daa90a'>Works?</span>",
+			"text": "Norsh Hazmat tracks and records the entire journey of hazardous materials, from creation to final disposal. Every movement is stored on the blockchain, ensuring a reliable and transparent history for industries, consumers, and authorities.",
+			"list": "<br><b class='d-block my-3'>Who Uses It?</b><ul><li><b>Industries</b> track raw materials and ensure dangerous products are properly handled.</li><li><b>Governments and regulatory agencies</b> monitor production, transport, and disposal to ensure compliance with laws.</li><li><b>Logistics companies and insurers</b> verify that shipments follow safety standards.</li><li><b>Hospitals and laboratories</b> manage biological and chemical waste with full transparency.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Frequently Asked Questions",
+			"items": [
+				{
+					"question": "What types of materials can be tracked with Norsh Hazmat?",
+					"answer": "Norsh Hazmat can register any type of hazardous material, including:<ul><li><b>Medical and biological waste</b> (syringes, samples, contaminated materials)</li><li><b>Chemical and toxic substances</b> (solvents, acids, flammable materials)</li><li><b>Radioactive materials</b> (X-ray plates, nuclear waste, radiation sources)</li><li><b>Ammunition and weapons</b> (tracking transport and final destinations)</li><li><b>Industrial and hazardous waste</b> (heavy metals, effluents, toxic byproducts)</li></ul>The system can be adapted for other types of tracking as needed."
+				},
+				{
+					"question": "How does the system ensure data security?",
+					"answer": "Hazmat uses blockchain technology to record each movement event, ensuring:<ul><li><b>Immutability:</b> Once recorded, data cannot be changed or deleted.</li><li><b>Transparency:</b> Regulators and companies can access real-time information.</li><li><b>Cryptographic security:</b> All records are protected against manipulation and fraud.</li></ul>Access can be controlled, ensuring that only authorized users can view specific data."
+				},
+				{
+					"question": "Who can use Hazmat?",
+					"answer": "The system is flexible and can be used by:<ul><li><b>Industrial and chemical companies</b> handling hazardous products</li><li><b>Hospitals and laboratories</b> for managing biological waste</li><li><b>Transport and logistics companies</b> moving hazardous cargo</li><li><b>Government and regulatory agencies</b> for oversight and auditing</li><li><b>Waste disposal and recycling companies</b> tracking toxic waste</li></ul>If your company deals with sensitive materials and needs a secure tracking solution, Hazmat is the right choice for you."
+				},
+				{
+					"question": "Is there a limit on the number of records?",
+					"answer": "No. Norsh Hazmat is designed to be <b>infinitely scalable</b>, allowing businesses of all sizes to register and track materials without volume restrictions.<br><br>The Norsh blockchain can process thousands of transactions per second, ensuring real-time tracking even for large industries."
+				},
+				{
+					"question": "How can I integrate Hazmat with my system?",
+					"answer": "Integration is done via <b>REST API</b>, allowing connection with ERPs, logistics systems, waste management platforms, and even IoT devices.<br><br>The integration process includes:<ol><li><b>Company registration on Hazmat</b></li><li><b>Generating API credentials</b></li><li><b>Automatically sending tracking events</b></li></ol>Businesses can start with a simple web panel and expand integration as needed."
+				},
+				{
+					"question": "Does Norsh Hazmat comply with environmental and safety regulations?",
+					"answer": "Yes. Hazmat helps companies meet local and international regulations for tracking, disposal, and environmental safety, including:<ul><li><b>Hazardous material transport regulations</b></li><li><b>Environmental rules for toxic waste disposal</b></li><li><b>Compliance policies for controlled substances</b></li></ul>The system simplifies audits and regulatory reporting."
+				},
+				{
+					"question": "How can I start using Norsh Hazmat?",
+					"answer": "You can request a demo or create an account to test the system. For companies needing advanced integration, we provide technical support for setup and API automation.<br><br><b>Contact us to see how Norsh Hazmat can improve your hazardous materials management.</b>"
+				}
+			]
+		}
 	}
 }
