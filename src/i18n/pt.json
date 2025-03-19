@@ -139,5 +139,192 @@
 				}
 			]
 		}
+	},
+
+    "ip": {
+		"banner": {
+			"title": "Intellectual Property",
+			"subtitle": "Powered By Norsh",
+			"description": "Uma plataforma para registro autoral. Você cria sua música, a registra na blockchain e recebe um token exclusivo que comprova que você é o proprietário e registrou sua produção original antes de qualquer outra pessoa.",
+			"cta": "Comece Agora"
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #daa90a'>Funciona?</span>",
+			"text": "A solução de Propriedade Intelectual da Norsh permite que qualquer tipo de criação — músicas, textos, imagens, softwares, roteiros, projetos — seja registrada de forma imutável na blockchain. Assim, você obtém uma prova de autoria que garante seus direitos sobre a obra, com data e hora de registro.",
+			"list": "<br><b class='d-block my-3'>Quem Usa?</b><ul><li><b>Músicos e compositores</b> que desejam proteger suas criações originais.</li><li><b>Escritores e roteiristas</b> em busca de comprovação de autoria.</li><li><b>Artistas visuais</b> que desejam validar a autenticidade de suas obras.</li><li><b>Desenvolvedores de software</b> que querem registrar código-fonte.</li><li><b>Empresas e profissionais</b> que necessitam de uma forma segura de registrar propriedade intelectual.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "Quais tipos de obras podem ser registradas?",
+					"answer": "Você pode registrar qualquer produção intelectual, incluindo músicas, livros, roteiros, fotografias, obras de arte, software e muito mais. O registro na blockchain é flexível e se adapta a diferentes formatos de conteúdo."
+				},
+				{
+					"question": "O registro na blockchain substitui registros oficiais?",
+					"answer": "O registro na blockchain é uma forma de comprovar autoria e data de criação, mas não necessariamente substitui órgãos oficiais de registro, que podem ser exigidos em alguns países ou contextos legais. No entanto, a prova de existência e autoria fornecida pela blockchain pode servir como forte evidência em disputas de direitos autorais."
+				},
+				{
+					"question": "Como é garantida a segurança dos dados?",
+					"answer": "A blockchain da Norsh utiliza criptografia e um sistema de registros distribuídos. Isso significa que as informações não podem ser alteradas ou excluídas após serem gravadas, garantindo imutabilidade e transparência para todos os envolvidos."
+				},
+				{
+					"question": "Posso monetizar minha obra registrada?",
+					"answer": "Sim. Ao vincular sua criação a um token exclusivo, você pode explorar modelos de licenciamento, vendas de edições limitadas ou outras formas de monetização. A prova de propriedade intelectual facilita negociações seguras e transparentes."
+				},
+				{
+					"question": "É necessário ter conhecimentos técnicos para registrar uma obra?",
+					"answer": "Não. A plataforma da Norsh oferece uma interface intuitiva para o registro. Para integrações mais avançadas ou automação em massa, fornecemos APIs e suporte técnico completo."
+				},
+				{
+					"question": "O que acontece se alguém tentar registrar a mesma obra?",
+					"answer": "A blockchain registra o hash do arquivo ou da obra. Se alguém tentar registrar o mesmo conteúdo, o sistema detectará a duplicação. Além disso, a data e hora de registro são imutáveis, provando quem fez o registro primeiro."
+				},
+				{
+					"question": "Como começo a usar a solução de Propriedade Intelectual da Norsh?",
+					"answer": "Basta criar uma conta na plataforma e fazer o upload da sua obra para gerar o registro na blockchain. Se precisar de funcionalidades adicionais ou integração com sistemas já existentes, oferecemos suporte para configurar APIs e processos automatizados."
+				}
+			]
+		}
+	},
+
+    "supply": {
+		"banner": {
+			"title": "Supply Chain",
+			"subtitle": "Registro e rastreamento dos seus produtos. Garanta autenticidade, conformidade e transparência em cada etapa. Com a tecnologia blockchain da Norsh, cada item é rastreado de forma imutável e validado, eliminando riscos de fraudes e adulterações.",
+			"cta": "Comece Agora"
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #daa90a'>Funciona?</span>",
+			"text": "A solução de Supply Chain da Norsh registra cada etapa do fluxo de suprimentos, desde o fornecedor inicial até o ponto de venda ou consumo final. Cada movimentação — seja de matérias-primas, componentes ou produtos acabados — é registrada na blockchain, garantindo um histórico confiável e transparente para todos os participantes da cadeia.",
+			"list": "<br><b class='d-block my-3'>Quem Usa?</b><ul><li><b>Fabricantes</b> que precisam de rastreamento de insumos e controle de qualidade.</li><li><b>Distribuidores e atacadistas</b> que movimentam grandes volumes de produtos.</li><li><b>Varejistas</b> que desejam oferecer transparência ao consumidor final.</li><li><b>Transportadoras</b> que buscam registrar e validar cada etapa do transporte.</li><li><b>Órgãos reguladores</b> que exigem conformidade e segurança na cadeia de suprimentos.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "Quais tipos de produtos podem ser rastreados pela solução da Norsh?",
+					"answer": "A solução é flexível e pode rastrear praticamente qualquer tipo de produto, incluindo bens de consumo, alimentos, peças industriais, itens farmacêuticos e muito mais. Cada item recebe um registro único na blockchain, garantindo transparência e confiabilidade."
+				},
+				{
+					"question": "Como a blockchain garante a segurança dos dados?",
+					"answer": "A tecnologia blockchain da Norsh utiliza criptografia avançada e registros imutáveis. Uma vez inseridos, os dados não podem ser alterados ou excluídos, garantindo a autenticidade das informações de cada etapa do processo."
+				},
+				{
+					"question": "É possível integrar com sistemas já existentes?",
+					"answer": "Sim. Oferecemos APIs e suporte técnico para facilitar a integração com ERPs, plataformas de logística, sistemas de inventário e outras soluções que a sua empresa já utilize."
+				},
+				{
+					"question": "A solução é escalável para grandes volumes de transações?",
+					"answer": "Com certeza. A infraestrutura da Norsh foi projetada para suportar grandes quantidades de transações por segundo, garantindo rastreamento em tempo real mesmo para cadeias de suprimentos complexas e de grande escala."
+				},
+				{
+					"question": "Quais benefícios a solução de Supply Chain da Norsh oferece?",
+					"answer": "Além de transparência e segurança, nossa solução ajuda a reduzir perdas, prevenir fraudes, agilizar auditorias e fortalecer a confiança entre parceiros comerciais. Tudo isso contribui para uma gestão de cadeia de suprimentos mais eficiente e competitiva."
+				},
+				{
+					"question": "Como posso começar a usar a solução de Supply Chain da Norsh?",
+					"answer": "Basta entrar em contato conosco ou solicitar uma demonstração. Nossa equipe analisará as necessidades do seu negócio, apresentará propostas de implementação e fornecerá todo o suporte necessário para configurar a solução em seu ambiente."
+				}
+			]
+		}
+	},
+
+
+
+
+    "byc": {
+		"banner": {
+			"title": "Bring your Company",
+			"subtitle": "Participe da incubadora do Norsh, cadastre o projeto da sua empresa para concorrer à seleção gratuita. Conecte-se a um ecossistema de inovação e acelere o desenvolvimento do seu negócio."
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #daa90a'>Funciona?</span>",
+			"text": "O programa Bring your Company (BYC) da Norsh é uma iniciativa voltada para apoiar empresas em diferentes estágios de desenvolvimento que desejam inovar com tecnologia blockchain. Por meio de mentorias, suporte técnico e acesso à nossa rede de parceiros, ajudamos sua empresa a construir, integrar ou otimizar soluções na blockchain da Norsh.",
+			"list": "<br><b class='d-block my-3'>Quem Pode Participar?</b><ul><li><b>Startups</b> em fase de ideação ou crescimento, buscando validação e escala.</li><li><b>Empresas consolidadas</b> que desejam implementar blockchain em processos existentes.</li><li><b>Organizações públicas e privadas</b> em busca de inovação e eficiência.</li><li><b>Empreendedores</b> interessados em criar novos produtos e serviços na blockchain.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "O que é exatamente o Bring your Company?",
+					"answer": "É o programa de incubação e aceleração da Norsh, que oferece suporte para empresas que desejam explorar ou aprimorar soluções em blockchain. O BYC fornece mentorias, recursos e networking para ajudar no desenvolvimento de projetos inovadores."
+				},
+				{
+					"question": "Quais tipos de projetos podem se inscrever?",
+					"answer": "Qualquer projeto ou empresa que tenha interesse em incorporar soluções blockchain ao seu modelo de negócio. Pode ser desde uma ideia inicial até uma solução já em fase de testes ou implementação."
+				},
+				{
+					"question": "Preciso ter experiência prévia em blockchain para participar?",
+					"answer": "Não. O programa BYC oferece suporte tanto para iniciantes quanto para empresas experientes em blockchain. A equipe da Norsh fornece orientação e materiais para que todos possam se adaptar à tecnologia."
+				},
+				{
+					"question": "Como funciona o processo de seleção?",
+					"answer": "Após o cadastro do seu projeto, nossa equipe avalia a proposta, o potencial de inovação e a viabilidade de implementação na blockchain da Norsh. Em seguida, selecionamos as empresas mais alinhadas com os critérios do programa."
+				},
+				{
+					"question": "Quais benefícios recebo ao ser selecionado?",
+					"answer": "As empresas selecionadas têm acesso a mentorias especializadas, suporte técnico, recursos de infraestrutura, além de oportunidades de networking com parceiros e investidores que atuam no ecossistema da Norsh."
+				},
+				{
+					"question": "Como faço para me inscrever no Bring your Company?",
+					"answer": "Basta preencher o formulário de cadastro disponível em nosso site. Nossa equipe entrará em contato para dar continuidade ao processo de avaliação e seleção. Se precisar de mais informações, entre em contato conosco."
+				},
+				{
+					"question": "O programa tem algum custo?",
+					"answer": "O processo de inscrição é gratuito. Em alguns casos, podem existir custos relacionados a recursos adicionais ou serviços específicos, mas tudo será detalhado antes de qualquer compromisso."
+				}
+			]
+		}
+	},
+
+    "govnet": {
+		"banner": {
+			"title": "GOVNET",
+			"subtitle": "Tecnologia em Nuvem para Governos. Uma solução em nuvem desenvolvida para atender às demandas críticas dos governos. Com alta disponibilidade, segurança robusta e confiabilidade comprovada, a GOVNET é projetada para suportar todos os níveis de classificação de dados: não confidencial, confidencial, secreto e altamente secreto.",
+			"cta": "Solicite uma Demonstração"
+		},
+
+		"whatIs": {
+			"title": "Como <span style='color: #daa90a'>Funciona?</span>",
+			"text": "A GOVNET aproveita a infraestrutura da blockchain Norsh para oferecer serviços em nuvem de alto desempenho e segurança para governos. Por meio de criptografia avançada, redundância de dados e autenticação rigorosa, cada informação é protegida contra acessos indevidos. A plataforma é configurada para se adaptar a diferentes níveis de classificação, permitindo que órgãos públicos armazenem e processem dados sensíveis com total confiança.",
+			"list": "<br><b class='d-block my-3'>Quem Usa?</b><ul><li><b>Órgãos governamentais</b> que lidam com informações estratégicas e classificadas.</li><li><b>Agências reguladoras</b> que precisam de acesso seguro e ininterrupto a dados críticos.</li><li><b>Departamentos de defesa e segurança</b> que exigem alta confidencialidade e criptografia robusta.</li><li><b>Instituições públicas</b> que buscam soluções escaláveis e compatíveis com regulamentações.</li></ul>"
+		},
+
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "O que é exatamente a GOVNET?",
+					"answer": "É uma solução em nuvem construída sobre a tecnologia blockchain da Norsh, desenvolvida para atender demandas críticas de órgãos governamentais. A GOVNET combina alta disponibilidade, segurança avançada e suporte para diferentes níveis de classificação de dados."
+				},
+				{
+					"question": "Quais são os principais benefícios para governos?",
+					"answer": "A GOVNET oferece segurança criptográfica, disponibilidade ininterrupta, escalabilidade para grandes volumes de dados e compatibilidade com normas de conformidade. Além disso, possibilita uma gestão mais eficiente e transparente dos recursos públicos."
+				},
+				{
+					"question": "Como a segurança dos dados é garantida?",
+					"answer": "A GOVNET utiliza criptografia de ponta, autenticação de múltiplos fatores e registros imutáveis na blockchain Norsh. Dessa forma, as informações ficam protegidas contra acesso não autorizado e alterações indevidas."
+				},
+				{
+					"question": "Quais tipos de dados podem ser armazenados na GOVNET?",
+					"answer": "A GOVNET suporta desde dados não confidenciais até informações altamente secretas. Cada órgão define suas políticas de acesso e classificação, garantindo que apenas usuários autorizados tenham acesso a conteúdos sensíveis."
+				},
+				{
+					"question": "É possível integrar a GOVNET a sistemas já existentes?",
+					"answer": "Sim. A GOVNET oferece APIs e suporte técnico para facilitar a integração com sistemas legados, plataformas de gestão e outras soluções já utilizadas por órgãos governamentais."
+				},
+				{
+					"question": "Como iniciar o uso da GOVNET?",
+					"answer": "Basta solicitar uma demonstração ou entrar em contato com a equipe da Norsh. Faremos uma análise das necessidades do órgão, apresentaremos propostas de arquitetura e forneceremos suporte completo para implantação e configuração."
+				}
+			]
+		}
 	}
 }
