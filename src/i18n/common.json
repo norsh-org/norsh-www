@@ -22,7 +22,19 @@
             "bannerBg": "/assets/imgs/hazmat/banner_bg.jpg"
         },
         "pharma": {
-            "bannerBg": "/assets/imgs/pharma/banner_lg.jpg"
+            "bannerBg": "/assets/imgs/pharma/banner_bg.jpg"
+        },
+        "ip": {
+            "bannerBg": "/assets/imgs/ip/banner_bg.jpg"
+        },
+        "supply": {
+            "bannerBg": "/assets/imgs/supply/banner_bg.jpg"
+        },
+        "govnet": {
+            "bannerBg": "/assets/imgs/govnet/banner_bg.png"
+        },
+        "byc": {
+            "bannerBg": "/assets/imgs/byc/banner_bg.jpg"
         }
     }
 }

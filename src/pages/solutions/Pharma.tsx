@@ -1,7 +1,7 @@
-import FaqAccordion from "../components/FaqAccordion";
-import Navbar from "../components/Navbar";
-import { decodeHtmlAndParse } from "../utils/DecodeHtml";
-import "./Pharma.scss";
+import FaqAccordion from "../../components/FaqAccordion";
+import Navbar from "../../components/Navbar";
+import { decodeHtmlAndParse } from "../../utils/DecodeHtml";
+import "./Solutions.scss";
 import { t } from "i18next";
 
 const Pharma = () => {

@@ -88,8 +88,8 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                       </Link>
                     </li>
                     <li>
-                      <Link to={`/${lang}/solutions/suplychain`} className="dropdown-item">
-                        {t("navbarItems.solutions.suplychain")}
+                      <Link to={`/${lang}/solutions/supplychain`} className="dropdown-item">
+                        {t("navbarItems.solutions.supplychain")}
                       </Link>
                     </li>
                     <li>
@@ -124,17 +124,17 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="programsDropdown">
                     <li>
-                      <Link to={`/${lang}/developers`} className="dropdown-item">
+                      <Link to={`/${lang}/programs/developers`} className="dropdown-item">
                         {t("navbarItems.programs.developers")}
                       </Link>
                     </li>
                     <li>
-                      <Link to={`/${lang}/byc`} className="dropdown-item">
+                      <Link to={`/${lang}/programs/byc`} className="dropdown-item">
                         {t("navbarItems.programs.byc")}
                       </Link>
                     </li>
                     <li>
-                      <Link to={`/${lang}/govnet`} className="dropdown-item">
+                      <Link to={`/${lang}/programs/govnet`} className="dropdown-item">
                         {t("navbarItems.programs.govnet")}
                       </Link>
                     </li>
@@ -198,11 +198,11 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                 </li>
                 <li>
                   <Link
-                    to={`/${lang}/solutions/suplychain`}
+                    to={`/${lang}/solutions/supplychain`}
                     className="nav-link"
                     onClick={() => setIsDrawerOpen(false)}
                   >
-                    {t("navbarItems.solutions.suplychain")}
+                    {t("navbarItems.solutions.supplychain")}
                   </Link>
                 </li>
                 <li>

@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
-import { decodeHtmlAndParse } from "../utils/DecodeHtml";
+import Navbar from "../../components/Navbar";
+import { decodeHtmlAndParse } from "../../utils/DecodeHtml";
 import { t } from "i18next";
-import "./Hazmat.scss";
-import FaqAccordion from "../components/FaqAccordion";
+import "./Solutions.scss";
+import FaqAccordion from "../../components/FaqAccordion";
 
 const Hazmat = () => {
 	return (

@@ -54,8 +54,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="d-inline">
-                <Link to={`/${lang}/solutions/suplychain`} className="text-white nav-link mb-3">
-                  {t("navbarItems.solutions.suplychain")}
+                <Link to={`/${lang}/solutions/supplychain`} className="text-white nav-link mb-3">
+                  {t("navbarItems.solutions.supplychain")}
                 </Link>
               </li>
               <li className="d-inline">
@@ -81,17 +81,17 @@ const Footer = () => {
             <h5 className="mb-3">Programs</h5>
             <ul className="list-group">
               <li className="d-inline">
-                <Link to={`/${lang}/developers`} className="text-white nav-link mb-3">
+                <Link to={`/${lang}/programs/developers`} className="text-white nav-link mb-3">
                   {t("navbarItems.programs.developers")}
                 </Link>
               </li>
               <li className="d-inline">
-                <Link to={`/${lang}/byc`} className="text-white nav-link mb-3">
+                <Link to={`/${lang}/programs/byc`} className="text-white nav-link mb-3">
                   {t("navbarItems.programs.byc")}
                 </Link>
               </li>
               <li className="d-inline">
-                <Link to={`/${lang}/govnet`} className="text-white nav-link mb-3">
+                <Link to={`/${lang}/programs/govnet`} className="text-white nav-link mb-3">
                   {t("navbarItems.programs.govnet")}
                 </Link>
               </li>

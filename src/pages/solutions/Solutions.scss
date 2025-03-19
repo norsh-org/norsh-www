@@ -1,0 +1,67 @@
+body.solutions-hazmat {
+    background-color: black;
+    color: white;
+
+
+    nav .btn-info {
+        background-color: #daa90a !important;
+    }
+
+    .footerContainer {
+        filter: saturate(2) hue-rotate(240deg);
+    }
+
+    .faq-container {
+        color: white;
+    }
+
+    .faq-question { 
+        background: #111;
+    }
+
+    .faq-question:hover {
+        background: #222222;
+    }
+
+
+    .faq-answer {
+        background: #2a2a2a;
+    }
+
+    .faq-item.open .faq-question { 
+        font-weight: 500;
+        background: #222;
+    }
+
+}
+
+body.solutions-pharma, body.solutions-ip, body.solutions-supplychain {
+    .bannerContainer {
+      background-position: top;
+      background-size: cover;
+    }
+  
+    .layerBlack {
+      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
+    }
+  
+    .divContainer {
+      background-position: center;
+      background-size: cover;
+      min-height: 50vw;
+      padding: 50px 0px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 200px;
+      filter: drop-shadow(2px 2px 2px #000000);
+    }
+    
+    .bannerL1 {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
