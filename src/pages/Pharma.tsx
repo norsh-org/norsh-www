@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import { decodeHtmlAndParse } from "../utils/DecodeHtml";
 import "./Pharma.scss";
 import { t } from "i18next";
-import { Link } from "react-router-dom";
 
 const Pharma = () => {
 	return (
