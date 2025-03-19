@@ -2,7 +2,7 @@ import { useState } from "react";
 import { t } from "i18next";
 import { decodeHtmlAndParse } from "../utils/DecodeHtml";
 import { ChevronDown, ChevronUp } from "lucide-react"; // Ícone igual ao do menu
-import "./FaqAccordion.css"; 
+import "./FaqAccordion.scss"; 
 
 interface FaqItem {
     question: string;

@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { t } from "i18next";
 import { IconBrandGithub, IconBrandLinkedin, IconBrandMedium, IconBrandX } from "@tabler/icons-react";
 import { getLangFromPath } from "../i18n";
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   const location = useLocation();

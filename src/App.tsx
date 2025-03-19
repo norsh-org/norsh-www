@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import i18n, { getLangFromPath } from "./i18n";
 import { GlobalProvider } from "./context/GlobalContext";
 import Hazmat from "./pages/solutions/Hazmat";
-import "./App.css";
 import Footer from "./components/Footer";
 import ScrollToTop from "./utils/ScrollToTop";
 import BodyClassSetter from "./utils/BodyClassSetter";
@@ -14,6 +13,7 @@ import Ip from "./pages/solutions/Ip";
 import Supply from "./pages/solutions/Supply";
 import BYC from "./pages/programs/BYC";
 import GovNet from "./pages/programs/GovNet";
+import "./App.scss";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();

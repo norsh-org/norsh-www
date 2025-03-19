@@ -15,7 +15,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { IconMenu2 } from "@tabler/icons-react";
 import { getLangFromPath } from "../i18n";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 interface NavbarProps {
   isLightBackground?: boolean;
