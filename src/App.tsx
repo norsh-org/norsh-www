@@ -20,7 +20,7 @@ const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const lang = getLangFromPath(location.pathname);
 
   if (!["en", "pt"].includes(lang)) {
-    return <Navigate to="/en" replace />; // Redireciona para inglês se o idioma for inválido
+    return <Navigate to="/pt" replace />; // Redireciona para inglês se o idioma for inválido
   }
 
   i18n.changeLanguage(lang); // Altera o idioma no i18n
