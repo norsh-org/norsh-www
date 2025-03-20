@@ -34,8 +34,9 @@ const App = () => {
       <BodyClassSetter/>
       <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigate to="/en/home" replace />} />
+          <Route path="/" element={<Navigate to="/pt/home" replace />} />
           <Route path="/en" element={<Navigate to="/en/home" replace />} />
+          <Route path="/pt" element={<Navigate to="/pt/home" replace />} />
           <Route path="/:lang/home" element={<Wrapper><Home /></Wrapper>} />
           <Route path="/:lang/about" element={<Wrapper><About /></Wrapper>} />
 
