@@ -31,7 +31,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqPath }) => {
             <h2 className="faq-title">{t(faqPath.replace(".items", ".title"))}</h2>
             <div className="faq-accordion">
                 {faqItems.map((item, index) => (
-                    <div key={index} className={`faq-item ${openIndex === index ? "open" : ""}`}>
+                    <div key={index} className={`faq-item ${openIndex === index ? "open" : "open"}`}>
                         <button className="faq-question" onClick={() => toggleItem(index)}>
                             {item.question}
                             {openIndex === index ? (
@@ -40,7 +40,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqPath }) => {
                                 <ChevronDown size={18} className="faq-icon" />
                             )}
                         </button>
-                        <div className="faq-answer" style={{ display: openIndex === index ? "block" : "none" }}>
+                        <div className="faq-answer" style={{ display: openIndex === index ? "block" : "block" }}>
                             {decodeHtmlAndParse(item.answer)}
                         </div>
                     </div>
