@@ -92,21 +92,21 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                         {t("navbarItems.solutions.supplychain")}
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={`/${lang}/solutions/recycle`} className="dropdown-item">
                         {t("navbarItems.solutions.recycle")}
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to={`/${lang}/solutions/ip`} className="dropdown-item">
                         {t("navbarItems.solutions.ip")}
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={`/${lang}/solutions/sustainability`} className="dropdown-item">
                         {t("navbarItems.solutions.sustainability")}
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
 
@@ -205,7 +205,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                     {t("navbarItems.solutions.supplychain")}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to={`/${lang}/solutions/recycle`}
                     className="nav-link"
@@ -213,7 +213,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                   >
                     {t("navbarItems.solutions.recycle")}
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     to={`/${lang}/solutions/ip`}
@@ -223,7 +223,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                     {t("navbarItems.solutions.ip")}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to={`/${lang}/solutions/sustainability`}
                     className="nav-link"
@@ -231,7 +231,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                   >
                     {t("navbarItems.solutions.sustainability")}
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 
