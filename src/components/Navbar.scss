@@ -1,23 +1,57 @@
-.navbar .nav-item.dropdown .dropdown-menu {
+.navbar {
+  .nav-item.dropdown .dropdown-menu {
     display: block;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    pointer-events: none; 
+    pointer-events: none;
+  }
+
+	.nav-item.dropdown:hover .dropdown-menu {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+		pointer-events: auto;
+	}
+
+	.nav-item.dropdown .dropdown-toggle::after {
+		transition: transform 0.3s ease;
+	}
+
+	.nav-item.dropdown:hover .dropdown-toggle::after {
+		transform: rotate(180deg);
+	}
+
+  .dropdown-menu {
+    background-image: url("https://c2652z5519.r-cdn.com/assets/imgs/home/banner_bg.png");
+    background-position: top;
+    
+    li { 
+      a {
+        color: white;
+      }
+
+      a.dropdown-item:hover, a.dropdown-item:active, a.dropdown-item:focus {
+        background-color: #00000033;
+      }
+    }
+	}
 }
+
+.offcanvas {
+  background-image: url("https://c2652z5519.r-cdn.com/assets/imgs/home/banner_bg.png");
+  background-position: top;
+  background-size: auto 120%;
   
-.navbar .nav-item.dropdown:hover .dropdown-menu {
+  .btn-close {
+    filter: invert(1);
     opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    pointer-events: auto;
   }
-  
-  .nav-item.dropdown .dropdown-toggle::after {
-    transition: transform 0.3s ease;
+
+  .nav-link {
+    color: white;
+    padding-bottom: 10px;
   }
-  
-  .nav-item.dropdown:hover .dropdown-toggle::after {
-    transform: rotate(180deg);
-  }
+
+}

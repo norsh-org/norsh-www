@@ -34,7 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid d-flex align-items-center-between">
             {/* Menu Icon (Mobile) */}
-            <button className="navbar-toggler d-lg-none" type="button" onClick={() => setIsDrawerOpen(true)}>
+            <button className="navbar-toggler d-lg-none border-0 p-0" type="button" onClick={() => setIsDrawerOpen(true)}>
               <IconMenu2 stroke={2} className={textTheme} />
             </button>
 
@@ -163,7 +163,11 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
           style={{ visibility: isDrawerOpen ? "visible" : "hidden" }}
         >
           <div className="offcanvas-header">
-            <h5 className="offcanvas-title">{t("navbar.menu")}</h5>
+            <img
+                src={`${t("cdn")}${t("img.logo.white")}`}
+                alt="Norsh"
+                height="25"
+              />
             <button type="button" className="btn-close" onClick={() => setIsDrawerOpen(false)}></button>
           </div>
           <div className="offcanvas-body">

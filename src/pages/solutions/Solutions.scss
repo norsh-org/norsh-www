@@ -33,7 +33,17 @@ body.solutions-hazmat {
         background: #222;
     }
 
+    .navbar {
+      .dropdown-menu {
+        filter: saturate(2) hue-rotate(240deg);
+      }
+    }
+
+    .offcanvas {
+      filter: saturate(2) hue-rotate(240deg);
+    }
 }
+
 
 body.solutions-pharma, body.solutions-ip, body.solutions-supplychain {
     .bannerContainer {
