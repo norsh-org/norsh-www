@@ -26,13 +26,13 @@
 
 	"home": {
 		"banner": {
-			"title": "Bem-vindo à nova era do Blockchain",
-			"subtitle": "20 milissegundos para transformar tudo o que você conhece sobre blockchain.<br>Não seguimos padrões, nós os criamos."
+			"title": "20 milissegundos<br>A nova era da Blockchain",
+			"subtitle": "Prepare-se para revisar tudo o que você conhece sobre blockchain."
 		},
 
 		"whatIs": {
-			"title": "O que é <span style='color: darkcyan'>Norsh?</span>",
-			"text": "Norsh não é apenas uma blockchain. É um novo padrão que remove os limites da Web 3.0. Criamos um ecossistema que elimina barreiras existentes e torna as operações mais eficientes, transparentes e diretas. Com latência imperceptível, custos reduzidos ao essencial e sem obstáculos para quem desenvolve, usa ou inova, em qualquer ambiente: público, corporativo, industrial ou governamental.<br><br>Acreditamos que o verdadeiro progresso vem de melhorar o que já existe. “Reinventar a roda” não significa mudar por mudar, mas evoluir com propósito. Se algo funciona, mantemos. Se atrapalha, substituímos. Não seguimos tendências ou dogmas, apenas o que realmente agrega valor.<br><br>O futuro das blockchains não será mais definido por restrições, e sim pelas oportunidades que podemos criar. É exatamente por isso que o Norsh existe: para construir um novo caminho seguro, inteligente, estruturado e livre de barreiras para o futuro."
+			"title": "Quem <span style='color: darkcyan'>Somos?</span>",
+			"text": "Norsh é uma blockchain construída sobre padrões abertos e alinhada às melhores práticas de mercado. Nosso ecossistema elimina barreiras existentes e torna as operações mais eficientes, transparentes e diretas, com latência imperceptível de 20ms e custos reduzidos ao essencial.<br><br>Acreditamos que o verdadeiro progresso vem de melhorar o que já existe. “Reinvente a roda!” não significa mudar por mudar, mas evoluir corretamente e com propósito. Se algo funciona, mantemos. Se atrapalha, substituímos.<br><br>Não seguimos tendências nem dogmas, apenas o que realmente agrega valor. O Norsh foi preparado para construir um novo caminho seguro, inteligente, estruturado e livre de barreiras para o futuro da Blockchain."
 		},
 
 		"cta": {
@@ -41,8 +41,8 @@
 		},
 
 		"techInfo": {
-			"title": "Projetado para Integração",
-			"text": "Norsh é uma blockchain pronta para o mundo real, construída sobre padrões abertos e alinhada com as melhores práticas de mercado. Nossa infraestrutura permite integração fluida com sistemas existentes, reduzindo complexidade e tempo de desenvolvimento.<br><br>Com APIs flexíveis e uma arquitetura otimizada, você pode conectar aplicativos, serviços e dispositivos sem barreiras. Seu foco é o seu produto. Nós já resolvemos a base segura e escalável.",
+			"title": "Pronta para o mundo real",
+			"text": "Nossa infraestrutura permite integração rápida com sistemas existentes, reduzindo a complexidade e o tempo de desenvolvimento. Por meio de APIs RESTful flexíveis e uma arquitetura otimizada, o Norsh foi preparado para que você possa conectar aplicativos, serviços e dispositivos sem barreiras.<br><br>Foque no seu negócio, pois nós já elaboramos um caminho seguro e escalável para você.<br><br>Com uma plataforma intuitiva e documentação completa, você terá todo o suporte necessário para inovar com eficiência. Acompanhamos seu crescimento, garantindo estabilidade e desempenho mesmo diante das demandas mais exigentes.",
 			"link": "Veja nossa documentação"
 		}
 	},

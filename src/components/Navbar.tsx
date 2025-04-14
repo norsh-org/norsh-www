@@ -16,6 +16,7 @@ import { useTranslation } from "react-i18next";
 import { IconMenu2 } from "@tabler/icons-react";
 import { getLangFromPath } from "../i18n";
 import "./Navbar.scss";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface NavbarProps {
   isLightBackground?: boolean;
@@ -140,11 +141,15 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                     </li>
                   </ul>
                 </li>
+
+                <LanguageSwitcher textTheme={textTheme}></LanguageSwitcher>
               </ul>
             </div>
 
+            
             {/* Login Button */}
             <div>
+              
               {/* Descomente e ajuste se necessário */}
               {/* <Link
                 to={`/${lang}/login`}
@@ -227,6 +232,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLightBackground = true }) => {
                     {t("navbarItems.solutions.ip")}
                   </Link>
                 </li>
+                
                 {/* <li>
                   <Link
                     to={`/${lang}/solutions/sustainability`}

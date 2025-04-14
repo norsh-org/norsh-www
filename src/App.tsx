@@ -19,8 +19,8 @@ const Wrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const lang = getLangFromPath(location.pathname);
 
-  if (!["en", "pt"].includes(lang)) {
-    return <Navigate to="/pt" replace />; // Redireciona para inglês se o idioma for inválido
+  if (!["en", "pt", "es", "cn"].includes(lang)) {
+    return <Navigate to="/en" replace />; // Redireciona para inglês se o idioma for inválido
   }
 
   i18n.changeLanguage(lang); // Altera o idioma no i18n
@@ -34,9 +34,12 @@ const App = () => {
       <BodyClassSetter/>
       <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigate to="/pt/home" replace />} />
+          <Route path="/" element={<Navigate to="/en/home" replace />} />
           <Route path="/en" element={<Navigate to="/en/home" replace />} />
           <Route path="/pt" element={<Navigate to="/pt/home" replace />} />
+          <Route path="/es" element={<Navigate to="/es/home" replace />} />
+          <Route path="/cn" element={<Navigate to="/cn/home" replace />} />
+
           <Route path="/:lang/home" element={<Wrapper><Home /></Wrapper>} />
           <Route path="/:lang/about" element={<Wrapper><About /></Wrapper>} />
 

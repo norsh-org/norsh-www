@@ -14,7 +14,7 @@ const Home = () => {
 				<div className={`container-lg text-white ${styles.bannerContent}`}>
 					<div className="row m-4 align-items-center">
 						<div className="col-12 col-md-8 mt-5 mt-md-0 text-center text-md-start">
-							<h1 className="fs-0">{t("home.banner.title")}</h1>
+							<h1 className="fs-0">{decodeHtmlAndParse(t("home.banner.title"))}</h1>
 							<div className="mt-3 fs-4 fw-lighter">{decodeHtmlAndParse(t("home.banner.subtitle"))}</div>
 						</div>
 

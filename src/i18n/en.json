@@ -10,11 +10,11 @@
 
 	"navbarItems": {
 		"solutions": {
-			"hazmat": "Hazmat",
-			"pharma": "Pharma",
-			"suplychain": "Suply Chain",
-			"recycle": "Recycle",
-			"ip": "Intellectual property",
+			"hazmat": "Hazardous Materials",
+			"pharma": "Pharmaceuticals",
+			"supplychain": "Supply Chain",
+			"recycle": "Recycling",
+			"ip": "Intellectual Property",
 			"sustainability": "Sustainability"
 		},
 		"programs": {
@@ -26,118 +26,79 @@
 
 	"home": {
 		"banner": {
-			"title": "20ms to change everything you know about Blockchain.",
-			"subtitle": "20 milliseconds to transform everything you know about blockchain.<br>We don't follow standards, we create them."
+			"title": "20 milliseconds<br>The New Blockchain Era",
+			"subtitle": "Get ready to rethink everything you know about blockchain."
 		},
 
 		"whatIs": {
-			"title": "What is <span style='color: darkcyan'>Norsh?</span>",
-			"text": "Norsh is not just a blockchain. It is a new standard that removes the limits of Web 3.0. We have created an ecosystem that eliminates existing barriers and makes operations more efficient, transparent, and direct. With imperceptible latency, costs reduced to the essential, and no obstacles for those who develop, use, or innovate, in any environment: public, corporate, industrial, or governmental.<br><br>We believe that true progress comes from improving what already exists. “Reinvent the Wheel” does not mean changing for the sake of change, but evolving with purpose. If something works, we keep it. If it gets in the way, we replace it. We do not follow trends or dogmas, only what truly adds value.<br><br>The future of blockchains will no longer be defined by restrictions but by the opportunities we can create. That is exactly why Norsh exists, to build a new path that is secure, intelligent, structured, and free of barriers for the future."
+			"title": "Who <span style='color: darkcyan'>are we?</span>",
+			"text": "Norsh is a blockchain built upon open standards and aligned with industry best practices. Our ecosystem removes existing barriers and makes operations more efficient, transparent, and direct, with imperceptible latency of 20ms and costs reduced to essentials.<br><br>We believe true progress comes from improving what's already there. “Reinvent the wheel!” doesn’t mean changing for the sake of change, but evolving correctly and purposefully. If something works, we keep it. If it gets in the way, we replace it.<br><br>We don't follow trends or dogmas—only what truly adds value. Norsh was prepared to build a new path: secure, intelligent, structured, and barrier-free for the future of blockchain."
 		},
 
 		"cta": {
 			"title": "Blockchain for you, businesses, governments, and things",
-			"text": "From personal use to public and private sectors, from small operations to large corporations, Norsh adapts to what you need. Secure, scalable, and ready to connect people, institutions, and devices."
+			"text": "From personal use to the public and private sectors, from small operations to large corporations, Norsh adapts to your needs. Secure, scalable, and ready to connect people, institutions, and devices."
 		},
 
 		"techInfo": {
-			"title": "Designed for Integration",
-			"text": "Norsh is a blockchain ready for the real world, built on open standards and aligned with the best market practices. Our infrastructure enables seamless integration with existing systems, reducing complexity and development time.<br><br>With flexible APIs and an optimized architecture, you can connect applications, services, and devices without barriers. Your focus is your product. We've already solved the secure and scalable foundation.",
+			"title": "Ready for the real world",
+			"text": "Our infrastructure allows fast integration with existing systems, reducing complexity and development time. Through flexible RESTful APIs and an optimized architecture, Norsh is built so you can seamlessly connect apps, services, and devices.<br><br>Focus on your business—we’ve already paved a secure and scalable path for you.<br><br>With an intuitive platform and comprehensive documentation, you'll have all the support you need to innovate efficiently. We support your growth, ensuring stability and performance even under the most demanding requirements.",
 			"link": "See our documentation"
 		}
 	},
 
 	"hazmat": {
 		"banner": {
-			"title": "Hazardous Materials Control",
-			"subtitle": "Norsh's blockchain solution for Hazmat ensures secure and transparent tracking of hazardous materials from manufacturing to disposal. Chemicals, radioactive waste, and weapons are all recorded immutably and auditably, ensuring reliability at every stage."
+			"title": "Hazardous Material Control",
+			"subtitle": "Norsh’s blockchain solution for Hazmat ensures secure and transparent tracking of hazardous materials from manufacturing to disposal. Chemicals, radioactive waste, and weapons are recorded immutably and auditable, ensuring reliability at every stage."
 		},
 
 		"whatIs": {
-			"title": "How It <span style='color: #daa90a'>Works?</span>",
-			"text": "Norsh Hazmat tracks and records the entire journey of hazardous materials, from creation to final disposal. Every movement is stored on the blockchain, ensuring a reliable and transparent history for industries, consumers, and authorities.",
-			"list": "<br><b class='d-block my-3'>Who Uses It?</b><ul><li><b>Industries</b> track raw materials and ensure dangerous products are properly handled.</li><li><b>Governments and regulatory agencies</b> monitor production, transport, and disposal to ensure compliance with laws.</li><li><b>Logistics companies and insurers</b> verify that shipments follow safety standards.</li><li><b>Hospitals and laboratories</b> manage biological and chemical waste with full transparency.</li></ul>"
-		},
-
-		"faq": {
-			"title": "Frequently Asked Questions",
-			"items": [
-				{
-					"question": "What types of materials can be tracked with Norsh Hazmat?",
-					"answer": "Norsh Hazmat can register any type of hazardous material, including:<ul><li><b>Medical and biological waste</b> (syringes, samples, contaminated materials)</li><li><b>Chemical and toxic substances</b> (solvents, acids, flammable materials)</li><li><b>Radioactive materials</b> (X-ray plates, nuclear waste, radiation sources)</li><li><b>Ammunition and weapons</b> (tracking transport and final destinations)</li><li><b>Industrial and hazardous waste</b> (heavy metals, effluents, toxic byproducts)</li></ul>The system can be adapted for other types of tracking as needed."
-				},
-				{
-					"question": "How does the system ensure data security?",
-					"answer": "Hazmat uses blockchain technology to record each movement event, ensuring:<ul><li><b>Immutability:</b> Once recorded, data cannot be changed or deleted.</li><li><b>Transparency:</b> Regulators and companies can access real-time information.</li><li><b>Cryptographic security:</b> All records are protected against manipulation and fraud.</li></ul>Access can be controlled, ensuring that only authorized users can view specific data."
-				},
-				{
-					"question": "Who can use Hazmat?",
-					"answer": "The system is flexible and can be used by:<ul><li><b>Industrial and chemical companies</b> handling hazardous products</li><li><b>Hospitals and laboratories</b> for managing biological waste</li><li><b>Transport and logistics companies</b> moving hazardous cargo</li><li><b>Government and regulatory agencies</b> for oversight and auditing</li><li><b>Waste disposal and recycling companies</b> tracking toxic waste</li></ul>If your company deals with sensitive materials and needs a secure tracking solution, Hazmat is the right choice for you."
-				},
-				{
-					"question": "Is there a limit on the number of records?",
-					"answer": "No. Norsh Hazmat is designed to be <b>infinitely scalable</b>, allowing businesses of all sizes to register and track materials without volume restrictions.<br><br>The Norsh blockchain can process thousands of transactions per second, ensuring real-time tracking even for large industries."
-				},
-				{
-					"question": "How can I integrate Hazmat with my system?",
-					"answer": "Integration is done via <b>REST API</b>, allowing connection with ERPs, logistics systems, waste management platforms, and even IoT devices.<br><br>The integration process includes:<ol><li><b>Company registration on Hazmat</b></li><li><b>Generating API credentials</b></li><li><b>Automatically sending tracking events</b></li></ol>Businesses can start with a simple web panel and expand integration as needed."
-				},
-				{
-					"question": "Does Norsh Hazmat comply with environmental and safety regulations?",
-					"answer": "Yes. Hazmat helps companies meet local and international regulations for tracking, disposal, and environmental safety, including:<ul><li><b>Hazardous material transport regulations</b></li><li><b>Environmental rules for toxic waste disposal</b></li><li><b>Compliance policies for controlled substances</b></li></ul>The system simplifies audits and regulatory reporting."
-				},
-				{
-					"question": "How can I start using Norsh Hazmat?",
-					"answer": "You can request a demo or create an account to test the system. For companies needing advanced integration, we provide technical support for setup and API automation.<br><br><b>Contact us to see how Norsh Hazmat can improve your hazardous materials management.</b>"
-				}
-			]
+			"title": "How does it <span style='color: #daa90a'>work?</span>",
+			"text": "Norsh Hazmat tracks and records the entire journey of hazardous materials, from creation to final disposal. Each movement is stored on the blockchain, ensuring a reliable and transparent history for industries, consumers, and authorities.",
+			"list": "<br><b class='d-block my-3'>Who Uses it?</b><ul><li><b>Industries</b> track raw materials and ensure proper handling of hazardous products.</li><li><b>Governments and regulatory agencies</b> monitor production, transport, and disposal for legal compliance.</li><li><b>Logistics companies and insurers</b> verify shipments follow safety standards.</li><li><b>Hospitals and laboratories</b> manage biological and chemical waste with total transparency.</li></ul>"
 		}
 	},
 
 	"pharma": {
 		"banner": {
-			"title": "Do laboratório ao paciente, sem desvios, sem incertezas",
-			"subtitle": "Norsh's blockchain solution for Hazmat ensures secure and transparent tracking of hazardous materials from manufacturing to disposal. Chemicals, radioactive waste, and weapons are all recorded immutably and auditably, ensuring reliability at every stage."
+			"title": "From Lab to Patient—no diversions, no uncertainties",
+			"subtitle": "Norsh’s blockchain solution for the pharmaceutical industry ensures secure and transparent tracking of medications, from production to dispensing. Each step is immutably recorded, ensuring authenticity, compliance, and trust across the entire chain."
 		},
 
 		"whatIs": {
-			"title": "How It <span style='color: #daa90a'>Works?</span>",
-			"text": "Norsh Hazmat tracks and records the entire journey of hazardous materials, from creation to final disposal. Every movement is stored on the blockchain, ensuring a reliable and transparent history for industries, consumers, and authorities.",
-			"list": "<br><b class='d-block my-3'>Who Uses It?</b><ul><li><b>Industries</b> track raw materials and ensure dangerous products are properly handled.</li><li><b>Governments and regulatory agencies</b> monitor production, transport, and disposal to ensure compliance with laws.</li><li><b>Logistics companies and insurers</b> verify that shipments follow safety standards.</li><li><b>Hospitals and laboratories</b> manage biological and chemical waste with full transparency.</li></ul>"
+			"title": "How does it <span style='color: #008b8b'>work?</span>",
+			"text": "Norsh’s blockchain records the entire journey of pharmaceuticals, from manufacturing to final delivery. Every movement—be it production, distribution, or dispensing—is immutably stored, ensuring a reliable and transparent history for manufacturers, distributors, pharmacies, and regulatory authorities.",
+			"list": "<br><b class='d-block my-3'>Who Uses it?</b><ul><li><b>Manufacturers</b> ensure medication authenticity and quality.</li><li><b>Distributors</b> track transport and batch storage.</li><li><b>Pharmacies and hospitals</b> verify product origins and integrity before dispensing.</li><li><b>Regulatory bodies</b> monitor compliance with health and safety standards.</li></ul>"
+		}
+	},
+
+	"ip": {
+		"banner": {
+			"title": "Intellectual Property",
+			"subtitle": "Powered By Norsh",
+			"description": "A platform for copyright registration. You create your music, register it on the blockchain, and receive an exclusive token proving you're the owner who recorded your original work before anyone else.",
+			"cta": "Start Now"
 		},
 
-		"faq": {
-			"title": "Frequently Asked Questions",
-			"items": [
-				{
-					"question": "What types of materials can be tracked with Norsh Hazmat?",
-					"answer": "Norsh Hazmat can register any type of hazardous material, including:<ul><li><b>Medical and biological waste</b> (syringes, samples, contaminated materials)</li><li><b>Chemical and toxic substances</b> (solvents, acids, flammable materials)</li><li><b>Radioactive materials</b> (X-ray plates, nuclear waste, radiation sources)</li><li><b>Ammunition and weapons</b> (tracking transport and final destinations)</li><li><b>Industrial and hazardous waste</b> (heavy metals, effluents, toxic byproducts)</li></ul>The system can be adapted for other types of tracking as needed."
-				},
-				{
-					"question": "How does the system ensure data security?",
-					"answer": "Hazmat uses blockchain technology to record each movement event, ensuring:<ul><li><b>Immutability:</b> Once recorded, data cannot be changed or deleted.</li><li><b>Transparency:</b> Regulators and companies can access real-time information.</li><li><b>Cryptographic security:</b> All records are protected against manipulation and fraud.</li></ul>Access can be controlled, ensuring that only authorized users can view specific data."
-				},
-				{
-					"question": "Who can use Hazmat?",
-					"answer": "The system is flexible and can be used by:<ul><li><b>Industrial and chemical companies</b> handling hazardous products</li><li><b>Hospitals and laboratories</b> for managing biological waste</li><li><b>Transport and logistics companies</b> moving hazardous cargo</li><li><b>Government and regulatory agencies</b> for oversight and auditing</li><li><b>Waste disposal and recycling companies</b> tracking toxic waste</li></ul>If your company deals with sensitive materials and needs a secure tracking solution, Hazmat is the right choice for you."
-				},
-				{
-					"question": "Is there a limit on the number of records?",
-					"answer": "No. Norsh Hazmat is designed to be <b>infinitely scalable</b>, allowing businesses of all sizes to register and track materials without volume restrictions.<br><br>The Norsh blockchain can process thousands of transactions per second, ensuring real-time tracking even for large industries."
-				},
-				{
-					"question": "How can I integrate Hazmat with my system?",
-					"answer": "Integration is done via <b>REST API</b>, allowing connection with ERPs, logistics systems, waste management platforms, and even IoT devices.<br><br>The integration process includes:<ol><li><b>Company registration on Hazmat</b></li><li><b>Generating API credentials</b></li><li><b>Automatically sending tracking events</b></li></ol>Businesses can start with a simple web panel and expand integration as needed."
-				},
-				{
-					"question": "Does Norsh Hazmat comply with environmental and safety regulations?",
-					"answer": "Yes. Hazmat helps companies meet local and international regulations for tracking, disposal, and environmental safety, including:<ul><li><b>Hazardous material transport regulations</b></li><li><b>Environmental rules for toxic waste disposal</b></li><li><b>Compliance policies for controlled substances</b></li></ul>The system simplifies audits and regulatory reporting."
-				},
-				{
-					"question": "How can I start using Norsh Hazmat?",
-					"answer": "You can request a demo or create an account to test the system. For companies needing advanced integration, we provide technical support for setup and API automation.<br><br><b>Contact us to see how Norsh Hazmat can improve your hazardous materials management.</b>"
-				}
-			]
+		"whatIs": {
+			"title": "How does it <span style='color: #daa90a'>work?</span>",
+			"text": "Norsh’s Intellectual Property solution allows any creation—music, texts, images, software, scripts, or projects—to be immutably registered on the blockchain. Thus, you obtain proof of authorship securing your rights to the work, with a timestamped record.",
+			"list": "<br><b class='d-block my-3'>Who Uses it?</b><ul><li><b>Musicians and composers</b> protecting original works.</li><li><b>Writers and screenwriters</b> seeking authorship verification.</li><li><b>Visual artists</b> validating work authenticity.</li><li><b>Software developers</b> registering source code.</li><li><b>Companies and professionals</b> needing secure intellectual property registration.</li></ul>"
+		}
+	},
+
+	"supply": {
+		"banner": {
+			"title": "Supply Chain",
+			"subtitle": "Record and track your products. Ensure authenticity, compliance, and transparency at every step. With Norsh’s blockchain technology, each item is immutably tracked and validated, eliminating fraud and tampering risks.",
+			"cta": "Start Now"
+		},
+
+		"whatIs": {
+			"title": "How does it <span style='color: #daa90a'>work?</span>",
+			"text": "Norsh’s Supply Chain solution records each stage of supply flow, from initial supplier to point of sale or final consumption. Each movement—raw materials, components, or finished products—is recorded on the blockchain, ensuring reliable and transparent history for all supply chain participants.",
+			"list": "<br><b class='d-block my-3'>Who Uses it?</b><ul><li><b>Manufacturers</b> needing input tracking and quality control.</li><li><b>Distributors and wholesalers</b> moving large product volumes.</li><li><b>Retailers</b> providing transparency to end consumers.</li><li><b>Shipping companies</b> validating every transport step.</li><li><b>Regulatory bodies</b> ensuring compliance and safety in supply chains.</li></ul>"
 		}
 	}
 }

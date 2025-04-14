@@ -1,0 +1,104 @@
+{
+	"navbar": {
+		"home": "Inicio",
+		"about": "Acerca de",
+		"crypto": "Cripto",
+		"solutions": "Soluciones",
+		"programs": "Programas",
+		"documentation": "Documentación"
+	},
+
+	"navbarItems": {
+		"solutions": {
+			"hazmat": "Materiales Peligrosos",
+			"pharma": "Farmacéuticos",
+			"supplychain": "Cadena de Suministro",
+			"recycle": "Reciclaje",
+			"ip": "Propiedad Intelectual",
+			"sustainability": "Sostenibilidad"
+		},
+		"programs": {
+			"developers": "Desarrolladores",
+			"byc": "Trae tu Empresa",
+			"govnet": "GovNet"
+		}
+	},
+
+	"home": {
+		"banner": {
+			"title": "20 milisegundos<br>La Nueva Era del Blockchain",
+			"subtitle": "Prepárate para repensar todo lo que sabes sobre blockchain."
+		},
+
+		"whatIs": {
+			"title": "¿Quiénes <span style='color: darkcyan'>Somos?</span>",
+			"text": "Norsh es una blockchain construida sobre estándares abiertos y alineada con las mejores prácticas del mercado. Nuestro ecosistema elimina barreras existentes y hace las operaciones más eficientes, transparentes y directas, con una latencia imperceptible de 20ms y costos reducidos a lo esencial.<br><br>Creemos que el verdadero progreso proviene de mejorar lo que ya existe. “¡Reinventa la rueda!” no significa cambiar por cambiar, sino evolucionar correctamente y con propósito. Si algo funciona, lo mantenemos; si obstaculiza, lo sustituimos.<br><br>No seguimos tendencias ni dogmas, solo lo que realmente aporta valor. Norsh ha sido preparado para construir un nuevo camino seguro, inteligente, estructurado y libre de barreras para el futuro del blockchain."
+		},
+
+		"cta": {
+			"title": "Blockchain para ti, empresas, gobiernos y cosas",
+			"text": "Desde el uso personal hasta el sector público y privado, desde pequeñas operaciones hasta grandes corporaciones, Norsh se adapta a lo que necesitas. Seguro, escalable y listo para conectar personas, instituciones y dispositivos."
+		},
+
+		"techInfo": {
+			"title": "Lista para el mundo real",
+			"text": "Nuestra infraestructura permite una rápida integración con sistemas existentes, reduciendo la complejidad y el tiempo de desarrollo. A través de APIs RESTful flexibles y una arquitectura optimizada, Norsh está preparado para que puedas conectar aplicaciones, servicios y dispositivos sin barreras.<br><br>Concéntrate en tu negocio, porque nosotros ya hemos preparado un camino seguro y escalable para ti.<br><br>Con una plataforma intuitiva y documentación completa, tendrás todo el apoyo necesario para innovar con eficiencia. Acompañamos tu crecimiento, garantizando estabilidad y rendimiento incluso ante las demandas más exigentes.",
+			"link": "Consulta nuestra documentación"
+		}
+	},
+
+	"hazmat": {
+		"banner": {
+			"title": "Control de Materiales Peligrosos",
+			"subtitle": "La solución blockchain de Norsh para Hazmat garantiza un rastreo seguro y transparente de materiales peligrosos desde la fabricación hasta el descarte. Productos químicos, residuos radiactivos y armas son registrados de forma inmutable y auditable, garantizando fiabilidad en cada etapa."
+		},
+
+		"whatIs": {
+			"title": "¿Cómo <span style='color: #daa90a'>Funciona?</span>",
+			"text": "Norsh Hazmat rastrea y registra toda la trayectoria de materiales peligrosos, desde la creación hasta el descarte final. Cada movimiento queda almacenado en la blockchain, asegurando un historial confiable y transparente para industrias, consumidores y autoridades.",
+			"list": "<br><b class='d-block my-3'>¿Quién lo usa?</b><ul><li><b>Industrias</b> rastrean materias primas y aseguran la correcta manipulación de productos peligrosos.</li><li><b>Gobiernos y agencias reguladoras</b> supervisan producción, transporte y descarte para asegurar cumplimiento.</li><li><b>Empresas de logística y aseguradoras</b> verifican que los envíos sigan estándares de seguridad.</li><li><b>Hospitales y laboratorios</b> gestionan residuos biológicos y químicos con total transparencia.</li></ul>"
+		}
+	},
+
+	"pharma": {
+		"banner": {
+			"title": "Del laboratorio al paciente, sin desvíos, sin incertidumbres",
+			"subtitle": "La solución blockchain de Norsh para el sector farmacéutico asegura el rastreo seguro y transparente de medicamentos, desde la producción hasta la dispensación. Cada etapa se registra de forma inmutable, asegurando autenticidad, cumplimiento y confianza en toda la cadena."
+		},
+
+		"whatIs": {
+			"title": "¿Cómo <span style='color: #008b8b'>Funciona?</span>",
+			"text": "La blockchain de Norsh registra toda la trayectoria de los medicamentos, desde la fabricación hasta la entrega final. Cada movimiento – ya sea en producción, distribución o dispensación – es almacenado de manera inmutable, asegurando un historial confiable y transparente para fabricantes, distribuidores, farmacias y organismos reguladores.",
+			"list": "<br><b class='d-block my-3'>¿Quién lo usa?</b><ul><li><b>Fabricantes</b> aseguran autenticidad y calidad de medicamentos.</li><li><b>Distribuidores</b> siguen transporte y almacenamiento de lotes.</li><li><b>Farmacias y hospitales</b> validan origen e integridad antes de dispensar.</li><li><b>Reguladores</b> monitorean cumplimiento de normas sanitarias y de seguridad.</li></ul>"
+		}
+	},
+
+	"ip": {
+		"banner": {
+			"title": "Propiedad Intelectual",
+			"subtitle": "Respaldado por Norsh",
+			"description": "Una plataforma para registro de derechos de autor. Creas tu música, la registras en blockchain y recibes un token exclusivo que comprueba que eres el propietario original que registró primero.",
+			"cta": "Comienza Ahora"
+		},
+
+		"whatIs": {
+			"title": "¿Cómo <span style='color: #daa90a'>Funciona?</span>",
+			"text": "La solución de Propiedad Intelectual de Norsh permite que cualquier creación — música, textos, imágenes, software, guiones o proyectos — sea registrada de forma inmutable en blockchain. Así obtienes una prueba de autoría con fecha y hora del registro.",
+			"list": "<br><b class='d-block my-3'>¿Quién lo usa?</b><ul><li><b>Músicos y compositores</b> protegiendo obras originales.</li><li><b>Escritores y guionistas</b> buscando verificación de autoría.</li><li><b>Artistas visuales</b> que validan autenticidad de obras.</li><li><b>Desarrolladores de software</b> registrando código fuente.</li><li><b>Empresas y profesionales</b> que requieren registros seguros de propiedad intelectual.</li></ul>"
+		}
+	},
+
+	"supply": {
+		"banner": {
+			"title": "Cadena de Suministro",
+			"subtitle": "Registro y rastreo de tus productos. Garantiza autenticidad, cumplimiento y transparencia en cada etapa. Con blockchain de Norsh, cada elemento es rastreado y validado de forma inmutable, eliminando riesgos de fraude y adulteraciones.",
+			"cta": "Comienza Ahora"
+		},
+
+		"whatIs": {
+			"title": "¿Cómo <span style='color: #daa90a'>Funciona?</span>",
+			"text": "La solución de Cadena de Suministro de Norsh registra cada etapa del flujo de suministros, desde el proveedor inicial hasta el punto de venta o consumo final. Cada movimiento es registrado en blockchain, asegurando un historial confiable y transparente para todos los participantes.",
+			"list": "<br><b class='d-block my-3'>¿Quién lo usa?</b><ul><li><b>Fabricantes</b> rastreando insumos y controlando calidad.</li><li><b>Distribuidores y mayoristas</b> manejando grandes volúmenes de productos.</li><li><b>Minoristas</b> ofreciendo transparencia al consumidor.</li><li><b>Transportistas</b> registrando y validando cada paso del transporte.</li><li><b>Organismos reguladores</b> asegurando cumplimiento y seguridad.</li></ul>"
+		}
+	}
+}
